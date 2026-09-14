@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const b=document.getElementById("investment-scroll-top");window.addEventListener("scroll",()=>b.classList.toggle("show",window.scrollY>700),{passive:true});b.addEventListener("click",()=>window.scrollTo({top:0,behavior:"smooth"}));});

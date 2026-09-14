@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AURELIS CAPITAL — Private capital, intelligent allocation, enduring wealth.">
+  <title>AURELIS CAPITAL — Private Capital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="site-shell" class="investment-site">
+    <nav id="investment-navbar" class="navbar navbar-expand-lg navbar-dark fixed-top investment-navbar" aria-label="Primary navigation">
+      <div class="container-fluid px-4 px-lg-5">
+        <a class="navbar-brand investment-brand" href="#investment-hero"><span>AURELIS</span><small>CAPITAL</small></a>
+        <button id="investment-menu-toggle" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#investment-offcanvas" aria-controls="investment-offcanvas" aria-label="Open navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-none d-lg-flex">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+            <li><a class="nav-link" href="#investment-strategies" data-i18n="nav.strategies">Strategies</a></li>
+            <li><a class="nav-link" href="#investment-markets" data-i18n="nav.markets">Markets</a></li>
+            <li><a class="nav-link" href="#investment-insights" data-i18n="nav.insights">Insights</a></li>
+            <li><a class="nav-link" href="#investment-about" data-i18n="nav.about">About</a></li>
+            <li><a class="nav-link" href="#investment-contact" data-i18n="nav.contact">Contact</a></li>
+            <li><button class="btn btn-gold btn-sm px-3" data-scroll-target="#investment-contact" data-i18n="nav.cta">Private Consultation</button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end investment-offcanvas" tabindex="-1" id="investment-offcanvas" aria-labelledby="investment-offcanvas-label">
+      <div class="offcanvas-header">
+        <div class="investment-brand" id="investment-offcanvas-label"><span>AURELIS</span><small>CAPITAL</small></div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body d-flex flex-column">
+        <div class="mobile-menu-links">
+          <a href="#investment-hero">01 <span>Home</span></a>
+          <a href="#investment-strategies">02 <span>Strategies</span></a>
+          <a href="#investment-markets">03 <span>Markets</span></a>
+          <a href="#investment-insights">04 <span>Insights</span></a>
+          <a href="#investment-about">05 <span>About</span></a>
+          <a href="#investment-contact">06 <span>Contact</span></a>
+        </div>
+        <div class="mt-auto">
+          <div class="language-switcher mb-4">
+            <button class="lang-btn active" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="de">DE</button>
+            <button class="lang-btn" data-lang="fr">FR</button>
+          </div>
+          <button class="btn btn-gold w-100" data-scroll-target="#investment-contact">Request a Consultation</button>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section id="investment-hero" class="investment-hero-section">
+        <div class="hero-media">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85" alt="Contemporary financial architecture">
+          <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+          <div class="row align-items-end min-vh-100 pb-5">
+            <div class="col-xl-8">
+              <p class="eyebrow">PRIVATE CAPITAL · GLOBAL PERSPECTIVE</p>
+              <h1 data-i18n="hero.title">Invest Beyond<br><em>the Ordinary.</em></h1>
+              <p class="hero-lead" data-i18n="hero.lead">Strategic investment solutions for those who expect more from their capital.</p>
+              <div class="d-flex flex-wrap gap-3 mt-4">
+                <a href="#investment-strategies" class="btn btn-gold btn-lg" data-i18n="hero.primary">Explore Opportunities</a>
+                <a href="#investment-contact" class="btn btn-outline-light btn-lg" data-i18n="hero.secondary">Speak With an Advisor</a>
+              </div>
+              <div class="hero-trust row g-0 mt-5">
+                <div class="col-6 col-lg-3"><span>01</span>Private Client Focus</div>
+                <div class="col-6 col-lg-3"><span>02</span>Global Perspective</div>
+                <div class="col-6 col-lg-3"><span>03</span>Research Driven</div>
+                <div class="col-6 col-lg-3"><span>04</span>Long-Term Focus</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="hero-scroll" href="#investment-intro"><span>Scroll to explore</span><i class="bi bi-arrow-down"></i></a>
+      </section>
+
+      <section id="investment-intro" class="investment-intro-section section-dark py-6">
+        <div class="container">
+          <div class="row g-5 align-items-end">
+            <div class="col-lg-5"><p class="eyebrow">01 / THE FIRM</p><h2>Capital requires<br><em>perspective.</em></h2></div>
+            <div class="col-lg-6 offset-lg-1"><p class="lead text-muted-custom">Markets change. Wealth strategies must evolve with them. We provide a sophisticated investment framework built around objectives, risk, liquidity and long-term vision.</p></div>
+          </div>
+          <div class="row g-4 mt-4">
+            <div class="col-md-6 col-xl-3"><article class="feature-mini"><span>01</span><h3>Strategic Thinking</h3><p>Long-term perspective built around sustainable capital growth.</p></article></div>
+            <div class="col-md-6 col-xl-3"><article class="feature-mini"><span>02</span><h3>Disciplined Research</h3><p>Independent analysis that weighs opportunity against downside.</p></article></div>
+            <div class="col-md-6 col-xl-3"><article class="feature-mini"><span>03</span><h3>Selective Access</h3><p>A curated approach to investments and alternative opportunities.</p></article></div>
+            <div class="col-md-6 col-xl-3"><article class="feature-mini"><span>04</span><h3>Personal Attention</h3><p>Private-client relationships built around discretion and continuity.</p></article></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="investment-stats" class="investment-stats-section section-ivory py-5">
+        <div class="container">
+          <div class="row g-0 stats-grid">
+            <div class="col-6 col-lg-3"><div class="stat-item"><strong class="counter" data-target="850">0</strong><span>€M+</span><p>Capital Under Advisory</p></div></div>
+            <div class="col-6 col-lg-3"><div class="stat-item"><strong class="counter" data-target="28">0</strong><p>Global Markets Monitored</p></div></div>
+            <div class="col-6 col-lg-3"><div class="stat-item"><strong class="counter" data-target="17">0</strong><span>Years</span><p>Investment Experience</p></div></div>
+            <div class="col-6 col-lg-3"><div class="stat-item"><strong class="counter" data-target="94">0</strong><span>%</span><p>Client Retention</p></div></div>
+          </div>
+          <p class="small legal-note mt-4 mb-0">Illustrative figures shown for design purposes. Replace with verified company data before publication.</p>
+        </div>
+      </section>
+
+      <section id="investment-strategies" class="investment-strategies-section section-dark py-6">
+        <div class="container">
+          <div class="section-heading d-flex justify-content-between align-items-end mb-5">
+            <div><p class="eyebrow">02 / INVESTMENT AREAS</p><h2>Opportunities across<br><em>multiple markets.</em></h2></div>
+            <span class="section-index">06 / 10</span>
+          </div>
+          <div class="row g-0 strategy-grid">
+            <div class="col-md-6 col-xl-4"><article class="strategy-card"><span>01</span><i class="bi bi-graph-up-arrow"></i><h3>Public Markets</h3><p>Equities, fixed income, ETFs and carefully selected market opportunities.</p><a href="#investment-contact">Learn more <i class="bi bi-arrow-up-right"></i></a></article></div>
+            <div class="col-md-6 col-xl-4"><article class="strategy-card"><span>02</span><i class="bi bi-buildings"></i><h3>Private Equity</h3><p>Selected private businesses and growth-stage opportunities.</p><a href="#investment-contact">Learn more <i class="bi bi-arrow-up-right"></i></a></article></div>
+            <div class="col-md-6 col-xl-4"><article class="strategy-card"><span>03</span><i class="bi bi-houses"></i><h3>Real Assets</h3><p>Tangible assets and infrastructure designed to diversify portfolios.</p><a href="#investment-contact">Learn more <i class="bi bi-arrow-up-right"></i></a></article></div>
+            <div class="col-md-6 col-xl-4"><article class="strategy-card"><span>04</span><i class="bi bi-building"></i><h3>Real Estate</h3><p>Residential, commercial, hospitality and development opportunities.</p><a href="#investment-contact">Learn more <i class="bi bi-arrow-up-right"></i></a></article></div>
+            <div class="col-md-6 col-xl-4"><article class="strategy-card"><span>05</span><i class="bi bi-layers"></i><h3>Alternatives</h3><p>Selected strategies designed to complement traditional portfolios.</p><a href="#investment-contact">Learn more <i class="bi bi-arrow-up-right"></i></a></article></div>
+            <div class="col-md-6 col-xl-4"><article class="strategy-card"><span>06</span><i class="bi bi-globe2"></i><h3>Global Strategies</h3><p>International opportunities built around thoughtful diversification.</p><a href="#investment-contact">Learn more <i class="bi bi-arrow-up-right"></i></a></article></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="investment-opportunities" class="investment-opportunities-section section-charcoal py-6">
+        <div class="container">
+          <p class="eyebrow">03 / SELECTED OPPORTUNITIES</p>
+          <div class="d-flex justify-content-between align-items-end mb-4"><h2>Curated. <em>Considered.</em></h2><div class="slider-controls d-none d-md-flex"><button class="slider-prev" aria-label="Previous"><i class="bi bi-arrow-left"></i></button><button class="slider-next" aria-label="Next"><i class="bi bi-arrow-right"></i></button></div></div>
+        </div>
+        <div class="investment-horizontal-slider" id="opportunity-slider">
+          <article class="opportunity-card"><div class="opp-image"><img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80" alt="European growth company meeting"><span>PRIVATE EQUITY</span></div><div class="opp-body"><h3>European Growth Fund</h3><p>Europe · Growth profile</p><div class="opp-meta"><b>5–7 YRS</b><b>€250K MIN.</b><b>MEDIUM RISK</b></div><a href="#investment-contact">Request information →</a></div></article>
+          <article class="opportunity-card"><div class="opp-image"><img src="https://images.unsplash.com/photo-1444723121867-7a241cacace9?auto=format&fit=crop&w=1000&q=80" alt="Modern city buildings"><span>REAL ESTATE</span></div><div class="opp-body"><h3>Urban Living Strategy</h3><p>Western Europe · Income & growth</p><div class="opp-meta"><b>7–10 YRS</b><b>€500K MIN.</b><b>MEDIUM RISK</b></div><a href="#investment-contact">Request information →</a></div></article>
+          <article class="opportunity-card"><div class="opp-image"><img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1000&q=80" alt="Financial district skyline"><span>PUBLIC MARKETS</span></div><div class="opp-body"><h3>Global Quality Equity</h3><p>Global · Long-term growth</p><div class="opp-meta"><b>5+ YRS</b><b>€100K MIN.</b><b>MEDIUM RISK</b></div><a href="#investment-contact">Request information →</a></div></article>
+          <article class="opportunity-card"><div class="opp-image"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80" alt="Premium office interior"><span>REAL ASSETS</span></div><div class="opp-body"><h3>Core Infrastructure</h3><p>Europe · Defensive profile</p><div class="opp-meta"><b>8–12 YRS</b><b>€500K MIN.</b><b>LOWER RISK</b></div><a href="#investment-contact">Request information →</a></div></article>
+        </div>
+      </section>
+
+      <section id="investment-markets" class="investment-markets-section section-ivory py-6">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-5"><p class="eyebrow">04 / MARKET INTELLIGENCE</p><h2>Intelligence<br><em>before action.</em></h2><p class="text-dark-muted mt-4">A live-style dashboard for key indicators. Connect licensed market data in production.</p></div>
+            <div class="col-lg-7"><div class="market-dashboard">
+              <div class="market-row"><span>MSCI WORLD</span><strong>3,842.12</strong><b class="up">+0.84%</b></div>
+              <div class="market-row"><span>S&amp;P 500</span><strong>6,512.61</strong><b class="up">+0.51%</b></div>
+              <div class="market-row"><span>EUR / USD</span><strong>1.1742</strong><b class="down">−0.12%</b></div>
+              <div class="market-row"><span>GOLD / OZ</span><strong>$3,681.40</strong><b class="up">+0.29%</b></div>
+              <div class="market-row"><span>10Y TREASURY</span><strong>4.08%</strong><b class="down">−0.04%</b></div>
+              <div class="market-row"><span>BITCOIN</span><strong>$115,420</strong><b class="up">+1.14%</b></div>
+            </div><p class="small legal-note mt-3">Illustrative market values only — not live financial data.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="investment-gallery" class="investment-gallery-section section-dark py-6">
+        <div class="container">
+          <div class="row align-items-end mb-5"><div class="col-lg-7"><p class="eyebrow">05 / GLOBAL PERSPECTIVE</p><h2>A global view.<br><em>A local understanding.</em></h2></div></div>
+          <div class="gallery-main"><img id="investment-main-image" src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1800&q=85" alt="London skyline"></div>
+          <div class="gallery-thumbs" id="investment-gallery-thumbs">
+            <button class="gallery-thumb active" data-image="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1800&q=85" data-alt="London skyline"><img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=500&q=70" alt="London"></button>
+            <button class="gallery-thumb" data-image="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1800&q=85" data-alt="Frankfurt skyline"><img src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=500&q=70" alt="Frankfurt"></button>
+            <button class="gallery-thumb" data-image="https://images.unsplash.com/photo-1522083165195-3424ed129620?auto=format&fit=crop&w=1800&q=85" data-alt="Zurich city"><img src="https://images.unsplash.com/photo-1522083165195-3424ed129620?auto=format&fit=crop&w=500&q=70" alt="Zurich"></button>
+            <button class="gallery-thumb" data-image="https://images.unsplash.com/photo-1548919973-5cef591cdbc9?auto=format&fit=crop&w=1800&q=85" data-alt="Singapore skyline"><img src="https://images.unsplash.com/photo-1548919973-5cef591cdbc9?auto=format&fit=crop&w=500&q=70" alt="Singapore"></button>
+            <button class="gallery-thumb" data-image="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?auto=format&fit=crop&w=1800&q=85" data-alt="New York skyline"><img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?auto=format&fit=crop&w=500&q=70" alt="New York"></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="investment-video" class="investment-video-section py-0">
+        <div class="video-wrap">
+          <video id="investment-video-player" controls playsinline preload="metadata" poster="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=2200&q=85">
+            <source src="https://cdn.coverr.co/videos/coverr-a-business-meeting-1571/1080p.mp4" type="video/mp4">
+          </video>
+          <div class="video-overlay-copy"><p class="eyebrow">06 / OUR APPROACH</p><h2>Precision is<br><em>a discipline.</em></h2><button id="investment-play-video" class="play-btn" aria-label="Play video"><i class="bi bi-play-fill"></i></button></div>
+        </div>
+      </section>
+
+      <section id="investment-philosophy" class="investment-philosophy-section section-charcoal py-6">
+        <div class="container"><div class="row"><div class="col-lg-8"><p class="eyebrow">07 / INVESTMENT PHILOSOPHY</p><h2>Protect. Allocate.<br><em>Compound.</em></h2></div></div><div class="row g-0 philosophy-grid mt-5">
+          <div class="col-md-4"><div class="philosophy-card"><span>01</span><h3>Protect</h3><p>Preserve capital through disciplined risk management and thoughtful diversification.</p></div></div>
+          <div class="col-md-4"><div class="philosophy-card"><span>02</span><h3>Allocate</h3><p>Deploy capital selectively where risk and opportunity are appropriately balanced.</p></div></div>
+          <div class="col-md-4"><div class="philosophy-card"><span>03</span><h3>Compound</h3><p>Build sustainable long-term wealth through disciplined reinvestment.</p></div></div>
+        </div></div>
+      </section>
+
+      <section id="investment-portfolio" class="investment-portfolio-section section-ivory py-6">
+        <div class="container"><div class="row g-5 align-items-center">
+          <div class="col-lg-5"><p class="eyebrow">08 / PORTFOLIO VISUALIZER</p><h2>See your strategy<br><em>clearly.</em></h2><p class="text-dark-muted">Explore illustrative allocation profiles. Actual construction depends on suitability and individual circumstances.</p>
+            <div class="profile-buttons"><button class="profile-btn active" data-profile="balanced">Balanced</button><button class="profile-btn" data-profile="conservative">Conservative</button><button class="profile-btn" data-profile="growth">Growth</button></div>
+          </div>
+          <div class="col-lg-7"><div class="portfolio-visual"><div class="donut" id="portfolio-donut"><div class="donut-center"><strong id="portfolio-risk">BALANCED</strong><span>illustrative</span></div></div><div id="portfolio-legend" class="portfolio-legend"></div></div></div>
+        </div></div>
+      </section>
+
+      <section id="investment-calculator" class="investment-calculator-section section-dark py-6">
+        <div class="container"><div class="row g-5 align-items-center">
+          <div class="col-lg-5"><p class="eyebrow">09 / COMPOUNDING</p><h2>Explore the power<br><em>of time.</em></h2><p class="text-muted-custom">A simple illustration of compound growth — not a forecast or guarantee.</p></div>
+          <div class="col-lg-7"><div class="calculator-card">
+            <div class="calc-row"><label>Initial investment <output id="initial-output">€500,000</output></label><input id="initial-investment" type="range" min="50000" max="2000000" step="10000" value="500000"></div>
+            <div class="calc-row"><label>Monthly contribution <output id="monthly-output">€5,000</output></label><input id="monthly-contribution" type="range" min="0" max="25000" step="500" value="5000"></div>
+            <div class="calc-row"><label>Investment period <output id="years-output">20 years</output></label><input id="investment-years" type="range" min="1" max="40" step="1" value="20"></div>
+            <div class="calc-row"><label>Illustrative annual return <output id="return-output">6%</output></label><input id="annual-return" type="range" min="1" max="12" step=".5" value="6"></div>
+            <div class="calc-result"><span>Estimated future value</span><strong id="future-value">€2,xxx,xxx</strong></div>
+          </div></div>
+        </div></div>
+      </section>
+
+      <section id="investment-insights" class="investment-insights-section section-ivory py-6">
+        <div class="container"><p class="eyebrow">10 / INSIGHTS</p><div class="d-flex justify-content-between align-items-end mb-5"><h2>Perspectives for<br><em>modern investors.</em></h2></div>
+          <div class="row g-4">
+            <div class="col-md-4"><article class="insight-card"><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=900&q=80" alt="Market discussion"><div><small>MARKET OUTLOOK · 6 MIN</small><h3>Positioning for a changing rate environment.</h3><a href="#investment-contact">Read perspective →</a></div></article></div>
+            <div class="col-md-4"><article class="insight-card"><img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80" alt="Investment analysis"><div><small>PRIVATE MARKETS · 8 MIN</small><h3>The role of private assets in a modern portfolio.</h3><a href="#investment-contact">Read perspective →</a></div></article></div>
+            <div class="col-md-4"><article class="insight-card"><img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=80" alt="Premium office"><div><small>REAL ASSETS · 5 MIN</small><h3>Why tangible assets remain part of the conversation.</h3><a href="#investment-contact">Read perspective →</a></div></article></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="investment-about" class="investment-about-section section-dark py-6">
+        <div class="container"><div class="row g-5"><div class="col-lg-5"><p class="eyebrow">11 / PRIVATE CLIENT EXPERIENCE</p><h2>A relationship built<br>around <em>your capital.</em></h2></div><div class="col-lg-7"><div class="process-list">
+          <div><span>01</span><h3>Discovery</h3><p>Understanding objectives, circumstances and investment horizon.</p></div>
+          <div><span>02</span><h3>Strategy</h3><p>Developing an investment framework aligned with your goals.</p></div>
+          <div><span>03</span><h3>Allocation</h3><p>Selecting suitable investments and constructing the portfolio.</p></div>
+          <div><span>04</span><h3>Review</h3><p>Continuous monitoring, reporting and strategic adjustment.</p></div>
+        </div></div></div></div>
+      </section>
+
+      <section id="investment-team" class="investment-team-section section-charcoal py-6">
+        <div class="container"><p class="eyebrow">12 / THE PEOPLE</p><h2>People behind<br><em>the strategy.</em></h2><div class="row g-4 mt-4">
+          <div class="col-md-4"><article class="team-card"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=900&q=80" alt="Managing partner portrait"><div><h3>Alexander Laurent</h3><p>Managing Partner · Global Strategy</p></div></article></div>
+          <div class="col-md-4"><article class="team-card"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=900&q=80" alt="Chief investment officer portrait"><div><h3>Sophia Weber</h3><p>Chief Investment Officer · Risk Management</p></div></article></div>
+          <div class="col-md-4"><article class="team-card"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80" alt="Private clients executive portrait"><div><h3>Daniel Moreau</h3><p>Head of Private Clients · Wealth Strategy</p></div></article></div>
+        </div></div>
+      </section>
+
+      <section id="investment-contact" class="investment-contact-section section-ivory py-6">
+        <div class="container"><div class="row g-5">
+          <div class="col-lg-5"><p class="eyebrow">13 / PRIVATE CONSULTATION</p><h2>Begin a conversation<br>about <em>your capital.</em></h2><p class="text-dark-muted mt-4">A confidential first conversation about your objectives, priorities and investment horizon.</p><div class="office-card mt-5"><small>PRIVATE INVESTMENT OFFICE</small><strong>AURELIS CAPITAL</strong><span>Königsallee · 40212 Düsseldorf · Germany</span></div></div>
+          <div class="col-lg-7"><form id="investment-contact-form" class="luxury-form" novalidate>
+            <div class="row g-4"><div class="col-md-6"><label for="firstName">First name *</label><input id="firstName" name="firstName" required></div><div class="col-md-6"><label for="lastName">Last name *</label><input id="lastName" name="lastName" required></div>
+            <div class="col-md-6"><label for="email">Email *</label><input id="email" name="email" type="email" required></div><div class="col-md-6"><label for="phone">Phone</label><input id="phone" name="phone" type="tel"></div>
+            <div class="col-md-6"><label for="investorType">Investor type</label><select id="investorType" name="investorType"><option>Private Investor</option><option>Entrepreneur</option><option>Family Office</option><option>Corporate</option><option>Professional Investor</option></select></div>
+            <div class="col-md-6"><label for="range">Estimated investment range</label><select id="range" name="range"><option>€100K–€250K</option><option>€250K–€500K</option><option>€500K–€1M</option><option>€1M–€5M</option><option>€5M+</option></select></div>
+            <div class="col-12"><label for="interests">Investment interests</label><div class="interest-checks"><label><input type="checkbox" name="interest" value="Public Markets"> Public Markets</label><label><input type="checkbox" name="interest" value="Private Equity"> Private Equity</label><label><input type="checkbox" name="interest" value="Real Estate"> Real Estate</label><label><input type="checkbox" name="interest" value="Real Assets"> Real Assets</label><label><input type="checkbox" name="interest" value="Alternatives"> Alternatives</label></div></div>
+            <div class="col-12"><label for="message">Message</label><textarea id="message" name="message" rows="5"></textarea></div>
+            <div class="col-12"><label class="consent"><input id="consent" type="checkbox" required> I agree to the Privacy Policy and consent to being contacted about my enquiry.</label></div>
+            <div class="col-12 d-flex align-items-center gap-3"><button class="btn btn-dark-gold btn-lg" type="submit">Request Confidential Consultation</button><span id="form-status" class="form-status" role="status"></span></div></div>
+          </form></div>
+        </div></div>
+      </section>
+
+      <section id="investment-social" class="investment-social-section section-dark py-6">
+        <div class="container"><div class="row align-items-end mb-5"><div class="col-md-8"><p class="eyebrow">14 / SOCIAL PRESENCE</p><h2>Follow our <em>perspective.</em></h2></div><div class="col-md-4 text-md-end"><a class="social-link" href="#" aria-label="Instagram"><i class="bi bi-instagram"></i> Instagram</a> <a class="social-link" href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i> LinkedIn</a></div></div>
+          <div class="social-grid">
+            <a href="#" class="social-tile"><img src="https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?auto=format&fit=crop&w=800&q=80" alt="Editorial finance image"><span><i class="bi bi-instagram"></i></span></a>
+            <a href="#" class="social-tile"><img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80" alt="Business portrait"><span><i class="bi bi-instagram"></i></span></a>
+            <a href="#" class="social-tile"><img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=800&q=80" alt="Business meeting"><span><i class="bi bi-instagram"></i></span></a>
+            <a href="#" class="social-tile"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt="Modern office"><span><i class="bi bi-instagram"></i></span></a>
+            <a href="#" class="social-tile"><img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80" alt="Investment team"><span><i class="bi bi-instagram"></i></span></a>
+            <a href="#" class="social-tile"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Financial architecture"><span><i class="bi bi-instagram"></i></span></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="investment-newsletter" class="investment-newsletter-section section-gold py-5">
+        <div class="container"><div class="row align-items-center g-4"><div class="col-lg-7"><p class="eyebrow dark">PRIVATE INTELLIGENCE</p><h2>Market perspectives,<br><em>delivered.</em></h2></div><div class="col-lg-5"><form id="investment-newsletter-form" class="newsletter-form"><input type="email" placeholder="Your email address" aria-label="Your email address" required><button type="submit">Subscribe</button></form><small>Selected insights. Unsubscribe at any time.</small></div></div></div>
+      </section>
+    </main>
+
+    <footer id="investment-footer" class="investment-footer">
+      <div class="container py-5"><div class="row g-5"><div class="col-lg-5"><div class="investment-brand"><span>AURELIS</span><small>CAPITAL</small></div><p class="footer-tagline">Private Capital. Intelligent Allocation. Enduring Wealth.</p></div><div class="col-6 col-lg-2"><h4>Explore</h4><a href="#investment-strategies">Strategies</a><a href="#investment-markets">Markets</a><a href="#investment-insights">Insights</a></div><div class="col-6 col-lg-2"><h4>Company</h4><a href="#investment-about">About</a><a href="#investment-team">Team</a><a href="#investment-contact">Contact</a></div><div class="col-lg-3"><h4>Private Office</h4><p>Königsallee<br>40212 Düsseldorf<br>Germany</p><p><a href="#investment-contact">Request a consultation →</a></p></div></div><hr><div class="d-flex flex-column flex-md-row justify-content-between gap-3 small"><span>© 2026 AURELIS CAPITAL. All rights reserved.</span><span><a href="#">Imprint</a> · <a href="#">Privacy</a> · <a href="#">Risk Disclosure</a></span></div></div>
+    </footer>
+  </div>
+
+  <button id="investment-scroll-top" class="scroll-top" aria-label="Scroll to top"><i class="bi bi-arrow-up"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/opportunities.js"></script>
+  <script src="js/counters.js"></script>
+  <script src="js/portfolio.js"></script>
+  <script src="js/calculator.js"></script>
+  <script src="js/contact-form.js"></script>
+  <script src="js/language-switcher.js"></script>
+  <script src="js/scroll-top.js"></script>
+  <script src="js/scroll-reveal.js"></script>
+  <script src="js/video.js"></script>
+</body>
+</html>

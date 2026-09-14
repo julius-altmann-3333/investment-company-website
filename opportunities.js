@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const s=document.getElementById("opportunity-slider");const next=document.querySelector(".slider-next"),prev=document.querySelector(".slider-prev");const amount=460;next?.addEventListener("click",()=>s.scrollBy({left:amount,behavior:"smooth"}));prev?.addEventListener("click",()=>s.scrollBy({left:-amount,behavior:"smooth"}));});
